@@ -1,0 +1,820 @@
+﻿Log file open, 12/13/17 22:08:42
+LogInit:Display: Running engine for game: TopDown
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-675949228) SRandInit(-675949228).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109544
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.14-03.08.43:460][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.14-03.08.43:460][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.14-03.08.43:533][  0]LogInit: Computer: DESKTOP-9I2E2DC
+[2017.12.14-03.08.43:533][  0]LogInit: User: Max
+[2017.12.14-03.08.43:533][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.14-03.08.43:533][  0]LogInit: High frequency timer resolution =2.610084 MHz
+[2017.12.14-03.08.43:534][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2017.12.14-03.08.43:534][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.14-03.08.43:534][  0]LogMemory: Process Physical Memory: 273.22 MB used, 273.22 MB peak
+[2017.12.14-03.08.43:534][  0]LogMemory: Process Virtual Memory: 260.73 MB used, 260.73 MB peak
+[2017.12.14-03.08.43:534][  0]LogMemory: Physical Memory: 3731.66 MB used,  8547.41 MB free, 12279.08 MB total
+[2017.12.14-03.08.43:534][  0]LogMemory: Virtual Memory: 671.52 MB used,  8547.41 MB free, 134217728.00 MB total
+[2017.12.14-03.08.43:937][  0]LogInit: Using OS detected language (en-US).
+[2017.12.14-03.08.43:937][  0]LogInit: Using OS detected locale (en-US).
+[2017.12.14-03.08.44:026][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.14-03.08.47:904][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.14-03.08.48:030][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 670' (Feature Level 11_0)
+[2017.12.14-03.08.48:030][  0]LogD3D11RHI:       2017/0/6139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.14-03.08.48:033][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.14-03.08.48:033][  0]LogD3D11RHI:       0/0/6139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.14-03.08.48:033][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.14-03.08.48:040][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.14-03.08.48:040][  0]LogD3D11RHI:     GPU DeviceId: 0x1189 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.14-03.08.48:040][  0]LogWindows: EnumDisplayDevices:
+[2017.12.14-03.08.48:040][  0]LogWindows:    0. 'NVIDIA GeForce GTX 670' (P:1 D:1)
+[2017.12.14-03.08.48:040][  0]LogWindows:    1. 'NVIDIA GeForce GTX 670' (P:0 D:1)
+[2017.12.14-03.08.48:041][  0]LogWindows:    2. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.12.14-03.08.48:041][  0]LogWindows:    3. 'NVIDIA GeForce GTX 670' (P:0 D:0)
+[2017.12.14-03.08.48:041][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.14-03.08.48:041][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 670
+[2017.12.14-03.08.48:041][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.14-03.08.48:041][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.14-03.08.48:041][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.14-03.08.48:083][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.14-03.08.48:256][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.14-03.08.48:316][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Users/Max/Desktop/Unreal/TopDown/Intermediate/Shaders/WorkingDirectory/13832/).
+[2017.12.14-03.08.48:316][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Max/AppData/Local/Temp/UnrealShaderWorkingDir/5D6A7BC745C3171E391939B13FAC59F0/'.
+[2017.12.14-03.08.48:317][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.12.14-03.08.51:521][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.14-03.08.51:601][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.12.14-03.08.51:695][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.14-03.08.51:802][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.12.14-03.08.51:902][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.12.14-03.08.51:995][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.14-03.08.52:091][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.14-03.08.52:195][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.14-03.08.52:281][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.12.14-03.08.52:378][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.12.14-03.08.52:490][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.14-03.08.52:575][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.14-03.08.52:654][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.14-03.08.52:733][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.14-03.08.52:813][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.14-03.08.52:974][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.14-03.08.52:974][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.14-03.08.53:039][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.12.14-03.08.53:198][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.12.14-03.08.53:247][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.12.14-03.08.53:363][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.14-03.08.53:443][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.14-03.08.53:543][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.14-03.08.53:633][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.12.14-03.08.53:633][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.12.14-03.08.54:534][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache: Loaded boot cache 0.61s 90MB C:/Users/Max/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Max/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Max/Desktop/Unreal/TopDown/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Max/Desktop/Unreal/TopDown/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.14-03.08.55:141][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.14-03.08.55:173][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.14-03.08.55:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Max/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.14-03.08.55:203][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.14-03.08.55:208][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.14-03.08.55:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.14-03.08.55:239][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.14-03.08.56:349][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.14-03.08.56:602][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.14-03.08.56:924][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.14-03.08.57:006][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.14-03.08.57:097][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.14-03.08.57:097][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.12.14-03.08.57:097][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.12.14-03.08.59:002][  0]LogNetVersion: TopDown , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2471222603)
+[2017.12.14-03.08.59:141][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2017.12.14-03.08.59:254][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.071636 seconds
+[2017.12.14-03.08.59:261][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.12.14-03.08.59:261][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.12.14-03.08.59:261][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.14-03.08.59:372][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.14-03.09.06:285][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.14-03.09.06:345][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.14-03.09.07:257][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.14-03.09.07:927][  0]SourceControl: Info Source control is disabled
+[2017.12.14-03.09.07:987][  0]SourceControl: Info Source control is disabled
+[2017.12.14-03.09.08:076][  0]SourceControl: Info Source control is disabled
+[2017.12.14-03.09.08:157][  0]SourceControl: Info Source control is disabled
+[2017.12.14-03.09.09:433][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.14-03.09.10:537][  0]LogEngine: Initializing Engine...
+[2017.12.14-03.09.10:539][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.14-03.09.10:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.14-03.09.10:871][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.14-03.09.11:115][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.14-03.09.11:139][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.09.11:182][  0]LogInit: FAudioDevice initialized.
+[2017.12.14-03.09.11:241][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Max/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.12.14-03.09.11:258][  0]LogInit: Texture streaming: Enabled
+[2017.12.14-03.09.11:423][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.14-03.09.11:423][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={DFEFD495-4D27-185A-B4A9-0AB3556668AD}
+[2017.12.14-03.09.11:990][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.14-03.09.12:089][  0]LogInit: Transaction tracking system initialized
+[2017.12.14-03.09.12:751][  0]BlueprintLog: New page: Editor Load
+[2017.12.14-03.09.14:770][  0]LocalizationService: Info Localization service is disabled
+[2017.12.14-03.09.16:168][  0]LogConsoleResponse:Display: 
+[2017.12.14-03.09.16:432][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.14-03.09.16:432][  0]LogCook:Display: Mobile HDR setting 1
+[2017.12.14-03.09.16:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Desktop/Unreal/TopDown/Content/' took 0.02s
+[2017.12.14-03.09.18:565][  0]SourceControl: Info Source control is disabled
+[2017.12.14-03.09.18:569][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.14-03.09.18:573][  0]LightingResults: New page: Lighting Build
+[2017.12.14-03.09.18:674][  0]MapCheck: New page: Map Check
+[2017.12.14-03.09.18:674][  0]LightingResults: New page: Lighting Build
+[2017.12.14-03.09.20:612][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.09.20:649][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.14-03.09.20:682][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.14-03.09.20:785][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 102.477ms to complete.
+[2017.12.14-03.09.20:785][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 2.218
+[2017.12.14-03.09.21:103][  0]LogCollectionManager: Loaded 0 collections in 0.002399 seconds
+[2017.12.14-03.09.21:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Desktop/Unreal/TopDown/Saved/Collections/' took 0.01s
+[2017.12.14-03.09.21:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Desktop/Unreal/TopDown/Content/Developers/Max/Collections/' took 0.01s
+[2017.12.14-03.09.21:280][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Max/Desktop/Unreal/TopDown/Content/Collections/' took 0.01s
+[2017.12.14-03.09.21:280][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.12.14-03.09.21:300][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2329 classes and 491 folders.
+[2017.12.14-03.09.21:423][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.12.14-03.09.21:913][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.12.14-03.09.22:000][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.12.14-03.09.22:056][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.12.14-03.09.22:074][  0]LogSlate: Took 0.007543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.14-03.09.22:084][  0]LogSlate: Took 0.006757 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.14-03.09.22:100][  0]LogSlate: Took 0.007386 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.14-03.09.22:313][  0]LogRenderer: Reallocating scene render targets to support 1212x652 NumSamples 1 (Frame:1).
+[2017.12.14-03.09.22:573][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.12.14-03.09.22:676][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.12.14-03.09.22:676][  0]LogLoad: (Engine Initialization) Total time: 42.61 seconds
+[2017.12.14-03.09.22:676][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.74 seconds
+[2017.12.14-03.09.22:676][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.12.14-03.09.22:686][  0]LogOcInput: OculusInput pre-init called
+[2017.12.14-03.09.22:686][  0]LogHMD: Starting GearVRController plugin
+[2017.12.14-03.09.22:717][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.14-03.09.22:807][  0]LogSlate: Took 0.007540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-03.09.22:846][  1]LogAssetRegistry: Asset discovery search completed in 23.7271 seconds
+[2017.12.14-03.09.22:849][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.12.14-03.09.22:849][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2017.12.14-03.09.23:734][ 49]LogSlate: Took 0.000405 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-03.09.47:627][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.14-03.13.17:054][146]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2017.12.14-03.13.19:726][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2017.12.14-03.13.24:082][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.24:083][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.24:083][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.24:083][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.24:083][657]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.24:103][657]LogEditorActor: Deleted 5 Actors (0.022 secs)
+[2017.12.14-03.13.25:796][806]Cmd: TRANSACTION UNDO
+[2017.12.14-03.13.25:796][806]LogEditorTransaction: Undo Delete selection
+[2017.12.14-03.13.28:564][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.28:565][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.28:565][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.28:565][873]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.12.14-03.13.28:583][873]LogEditorActor: Deleted 4 Actors (0.019 secs)
+[2017.12.14-03.13.31:971][ 26]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.14-03.13.32:047][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.13.32:047][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-03.13.32:048][ 26]PIE: New page: PIE session: TopDownExampleMap (Dec 13, 2017, 5:13:32 PM)
+[2017.12.14-03.13.32:048][ 26]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.12.14-03.13.32:091][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042360s)
+[2017.12.14-03.13.32:092][ 26]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.13.32:092][ 26]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2017.12.14-03.13.32:092][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.044077s)
+[2017.12.14-03.13.32:120][ 26]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.13.32:129][ 26]LogInit: FAudioDevice initialized.
+[2017.12.14-03.13.32:179][ 26]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.12.14-03.13.32:200][ 26]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.12.13-22.13.32
+[2017.12.14-03.13.32:214][ 26]LogWorld: Bringing up level for play took: 0.029609
+[2017.12.14-03.13.32:305][ 26]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.12.14-03.13.32:329][ 26]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.34
+[2017.12.14-03.13.32:330][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.13.36:349][384]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.13.36:406][384]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.14.23:039][948]Cmd: TRANSACTION UNDO
+[2017.12.14-03.14.23:039][948]LogEditorTransaction: Undo Move Actors
+[2017.12.14-03.14.31:271][417]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.14-03.14.31:303][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.14.31:303][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-03.14.31:304][417]PIE: New page: PIE session: TopDownExampleMap (Dec 13, 2017, 5:14:31 PM)
+[2017.12.14-03.14.31:304][417]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.12.14-03.14.31:330][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026094s)
+[2017.12.14-03.14.31:331][417]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.14.31:331][417]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2017.12.14-03.14.31:331][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.027458s)
+[2017.12.14-03.14.31:358][417]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.14.31:366][417]LogInit: FAudioDevice initialized.
+[2017.12.14-03.14.31:404][417]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.12.14-03.14.31:411][417]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.12.13-22.14.31
+[2017.12.14-03.14.31:412][417]LogWorld: Bringing up level for play took: 0.006595
+[2017.12.14-03.14.31:435][417]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.554
+[2017.12.14-03.14.31:436][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.14.38:020][576]LogCharacterMovement: BP_Minion_Enemy_C_1 is stuck and failed to move! Velocity: X=-326.13 Y=169.75 Z=0.00 Location: X=381.06 Y=-1260.57 Z=255.56 Normal: X=0.06 Y=-0.80 Z=-0.60 PenetrationDepth:1.257 Actor:BP_Building_Base4_446 Component:Destructible BoneName:Part072 (0 other events since notify)
+[2017.12.14-03.14.39:247][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.14.39:384][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.18.34:170][628]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.14-03.18.34:706][628]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.14-03.18.34:951][628]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.12.14-03.18.36:148][628]LogSlate: Took 0.005992 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.14-03.18.36:427][629]LogSlate: Took 0.007979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.14-03.20.22:179][740]LogSavePackage: Save=412.85ms
+[2017.12.14-03.20.22:179][740]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMap_Auto11E64D653401387AE8E841F9108C00EE9.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2017.12.14-03.20.22:183][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2017.12.14-03.20.22:191][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.505
+[2017.12.14-03.20.22:191][740]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.505
+[2017.12.14-03.30.23:488][775]LogSavePackage: Save=439.88ms
+[2017.12.14-03.30.23:488][775]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMap_Auto2BA0ADCD64209B29B7C8426892A65BDB7.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2017.12.14-03.30.23:491][775]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap
+[2017.12.14-03.30.23:494][775]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.505
+[2017.12.14-03.30.23:494][775]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.505
+[2017.12.14-03.41.28:669][747]BlueprintLog: New page: Compile TopDownExampleMap
+[2017.12.14-03.41.28:845][747]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn)
+[2017.12.14-03.41.28:845][747]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn2)
+[2017.12.14-03.41.28:845][747]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_EnemySpawn)
+[2017.12.14-03.41.28:845][747]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_AllySpawn)
+[2017.12.14-03.41.54:816][942]LogSavePackage: Save=390.93ms
+[2017.12.14-03.41.54:816][942]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMap_Auto3D211045B438A1B41F06407BBEAEE60C0.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap'
+[2017.12.14-03.41.54:819][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto3.umap
+[2017.12.14-03.41.54:822][942]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.453
+[2017.12.14-03.41.54:822][942]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.453
+[2017.12.14-03.48.24:079][875]BlueprintLog: New page: Compile TopDownExampleMap
+[2017.12.14-03.48.24:283][875]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn)
+[2017.12.14-03.48.24:283][875]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn2)
+[2017.12.14-03.48.24:283][875]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_EnemySpawn)
+[2017.12.14-03.48.24:283][875]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_AllySpawn)
+[2017.12.14-03.48.25:851][983]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.14-03.48.25:880][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.48.25:880][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-03.48.25:881][983]PIE: New page: PIE session: TopDownExampleMap (Dec 13, 2017, 5:48:25 PM)
+[2017.12.14-03.48.25:881][983]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.12.14-03.48.25:912][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031263s)
+[2017.12.14-03.48.25:914][983]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.48.25:914][983]LogPlayLevel: PIE: World Init took: (0.002333s)
+[2017.12.14-03.48.25:915][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033964s)
+[2017.12.14-03.48.25:963][983]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.48.25:973][983]LogInit: FAudioDevice initialized.
+[2017.12.14-03.48.26:028][983]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.12.14-03.48.26:036][983]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.12.13-22.48.26
+[2017.12.14-03.48.26:037][983]LogWorld: Bringing up level for play took: 0.007382
+[2017.12.14-03.48.26:039][983]PIE:Warning: Warning Mobility of NavMeshBoundsVolume_1 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2017.12.14-03.48.26:066][983]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.077
+[2017.12.14-03.48.26:067][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.48.26:146][983]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.12.14-03.48.35:543][299]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-1.49 Y=45.53 Z=0.00 Location: X=-947.20 Y=-1249.43 Z=269.48 Normal: X=-0.01 Y=-1.00 Z=0.00 PenetrationDepth:0.003 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (0 other events since notify)
+[2017.12.14-03.48.36:582][345]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-9.43 Y=278.72 Z=0.00 Location: X=-947.94 Y=-1249.31 Z=269.47 Normal: X=-0.01 Y=-1.00 Z=-0.01 PenetrationDepth:0.025 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part092 (21 other events since notify)
+[2017.12.14-03.48.37:591][388]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-11.59 Y=385.02 Z=0.00 Location: X=-950.54 Y=-1249.14 Z=269.09 Normal: X=0.00 Y=-1.00 Z=-0.06 PenetrationDepth:0.032 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part072 (28 other events since notify)
+[2017.12.14-03.48.38:603][431]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-9.22 Y=283.61 Z=0.00 Location: X=-951.55 Y=-1249.00 Z=269.17 Normal: X=-0.01 Y=-1.00 Z=-0.01 PenetrationDepth:0.250 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part092 (27 other events since notify)
+[2017.12.14-03.48.40:899][449]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=62.40 Y=9.19 Z=0.00 Location: X=-954.85 Y=-1249.09 Z=268.94 Normal: X=-0.04 Y=-1.00 Z=0.00 PenetrationDepth:0.030 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (8 other events since notify)
+[2017.12.14-03.48.42:001][493]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=53.29 Y=7.85 Z=0.00 Location: X=-954.89 Y=-1249.04 Z=269.33 Normal: X=-0.05 Y=-1.00 Z=-0.00 PenetrationDepth:0.011 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (3 other events since notify)
+[2017.12.14-03.48.44:699][605]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=49.24 Y=7.24 Z=0.00 Location: X=-955.26 Y=-1248.78 Z=269.42 Normal: X=-0.06 Y=-1.00 Z=0.00 PenetrationDepth:0.151 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (2 other events since notify)
+[2017.12.14-03.48.47:237][710]LogCharacterMovement: BP_Minion_Ally_C_0 is stuck and failed to move! Velocity: X=-2.95 Y=-48.99 Z=0.00 Location: X=-1252.61 Y=1135.39 Z=257.77 Normal: X=-0.84 Y=0.00 Z=0.54 PenetrationDepth:0.191 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part014 (0 other events since notify)
+[2017.12.14-03.48.47:290][712]LogCharacterMovement: BP_Minion_Ally_C_2 is stuck and failed to move! Velocity: X=4.62 Y=97.42 Z=0.00 Location: X=-1283.19 Y=1074.61 Z=257.56 Normal: X=0.31 Y=-0.27 Z=0.91 PenetrationDepth:54.965 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part023 (0 other events since notify)
+[2017.12.14-03.48.47:333][714]LogCharacterMovement: BP_Minion_Ally_C_5 is stuck and failed to move! Velocity: X=20.27 Y=-44.47 Z=0.00 Location: X=-1312.43 Y=1165.80 Z=257.57 Normal: X=-1.00 Y=-0.06 Z=0.00 PenetrationDepth:11.065 Actor:BP_Minion_Ally_C_0 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.12.14-03.48.47:387][716]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=49.71 Y=6.67 Z=0.00 Location: X=-955.70 Y=-1248.55 Z=269.32 Normal: X=-0.09 Y=-1.00 Z=-0.00 PenetrationDepth:0.100 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (1 other events since notify)
+[2017.12.14-03.48.47:792][733]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-47.89 Y=10.83 Z=0.00 Location: X=-826.78 Y=-1277.71 Z=261.22 Normal: X=-0.38 Y=-0.93 Z=0.03 PenetrationDepth:0.223 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.48.48:521][763]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=48.29 Y=6.47 Z=0.00 Location: X=-955.83 Y=-1248.53 Z=269.42 Normal: X=-0.09 Y=-1.00 Z=-0.00 PenetrationDepth:0.008 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (3 other events since notify)
+[2017.12.14-03.48.49:361][798]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-46.79 Y=10.57 Z=0.00 Location: X=-826.80 Y=-1277.66 Z=261.16 Normal: X=-0.38 Y=-0.93 Z=0.02 PenetrationDepth:0.262 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.48.49:817][817]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-98.84 Y=-0.54 Z=0.00 Location: X=-754.24 Y=-1247.61 Z=261.80 Normal: X=0.95 Y=0.01 Z=0.32 PenetrationDepth:0.053 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.48.50:038][826]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=48.23 Y=6.46 Z=0.00 Location: X=-956.08 Y=-1248.38 Z=269.14 Normal: X=-0.36 Y=-0.51 Z=-0.78 PenetrationDepth:0.054 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part092 (2 other events since notify)
+[2017.12.14-03.48.50:705][854]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-47.43 Y=10.74 Z=0.00 Location: X=-827.02 Y=-1277.68 Z=261.17 Normal: X=-0.38 Y=-0.93 Z=0.02 PenetrationDepth:0.312 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (2 other events since notify)
+[2017.12.14-03.48.50:870][860]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-30.17 Y=-37.11 Z=0.00 Location: X=-753.52 Y=-999.24 Z=257.65 Normal: X=0.91 Y=0.02 Z=0.42 PenetrationDepth:0.025 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part041 (0 other events since notify)
+[2017.12.14-03.48.50:969][864]LogCharacterMovement: BP_Minion_Enemy_C_1 is stuck and failed to move! Velocity: X=15.32 Y=48.34 Z=0.00 Location: X=-951.42 Y=-1316.16 Z=257.34 Normal: X=1.00 Y=0.01 Z=-0.00 PenetrationDepth:0.159 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (0 other events since notify)
+[2017.12.14-03.48.51:122][870]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-1.27 Y=50.42 Z=0.00 Location: X=-956.51 Y=-1248.11 Z=269.03 Normal: X=0.92 Y=0.40 Z=-0.00 PenetrationDepth:0.032 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (9 other events since notify)
+[2017.12.14-03.48.51:189][873]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-49.13 Y=-0.47 Z=0.00 Location: X=-754.52 Y=-1247.84 Z=261.81 Normal: X=0.94 Y=0.01 Z=0.33 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (9 other events since notify)
+[2017.12.14-03.48.52:210][889]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-2.58 Y=102.37 Z=0.00 Location: X=-956.53 Y=-1248.06 Z=268.83 Normal: X=0.92 Y=0.40 Z=0.00 PenetrationDepth:0.003 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (4 other events since notify)
+[2017.12.14-03.48.53:207][892]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076619 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.48.53:536][893]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-2.58 Y=102.37 Z=0.00 Location: X=-956.48 Y=-1248.14 Z=268.72 Normal: X=0.92 Y=0.40 Z=-0.00 PenetrationDepth:0.010 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (0 other events since notify)
+[2017.12.14-03.48.53:537][893]LogCharacterMovement: BP_Minion_Enemy_C_0 is stuck and failed to move! Velocity: X=-92.22 Y=44.50 Z=0.00 Location: X=-895.24 Y=-1277.69 Z=260.61 Normal: X=0.90 Y=-0.43 Z=0.00 PenetrationDepth:0.007 Actor:BP_Other_Player_2 Component:CollisionCylinder BoneName:None (0 other events since notify)
+[2017.12.14-03.48.54:207][895]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076787 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.48.54:872][897]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075980 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.48.55:209][898]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077901 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.48.55:874][900]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077102 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.48.59:209][910]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=30.57 Y=97.73 Z=0.00 Location: X=-956.59 Y=-1248.11 Z=268.84 Normal: X=-0.13 Y=-0.99 Z=0.00 PenetrationDepth:0.064 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (1 other events since notify)
+[2017.12.14-03.49.00:879][915]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076598 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.01:210][916]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077657 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.02:212][919]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078514 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.02:543][920]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079543 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.02:873][921]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077568 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.03:202][922]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079501 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.03:541][923]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078198 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.04:542][926]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078012 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.06:210][931]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075128 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.08:211][937]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074736 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.08:545][938]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079918 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.08:879][939]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077279 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.09:213][940]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077425 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.09:548][941]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079839 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.09:882][942]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079565 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.10:215][943]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077736 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.10:546][944]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079013 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.10:881][945]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078370 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.11:213][946]LogCharacterMovement: BP_Minion_Enemy_C_0 is stuck and failed to move! Velocity: X=-92.34 Y=44.25 Z=0.00 Location: X=-895.50 Y=-1277.16 Z=260.37 Normal: X=0.90 Y=-0.43 Z=0.00 PenetrationDepth:0.116 Actor:BP_Other_Player_2 Component:CollisionCylinder BoneName:None (1 other events since notify)
+[2017.12.14-03.49.11:218][946]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078237 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.11:549][947]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078621 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.11:885][948]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.079773 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.12:216][949]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077826 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.12:544][950]LogCharacterMovement: BP_Minion_Enemy_C_0 is stuck and failed to move! Velocity: X=-182.00 Y=86.92 Z=0.00 Location: X=-895.47 Y=-1277.28 Z=260.34 Normal: X=0.90 Y=-0.43 Z=0.00 PenetrationDepth:0.031 Actor:BP_Other_Player_2 Component:CollisionCylinder BoneName:None (5 other events since notify)
+[2017.12.14-03.49.12:877][951]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074549 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.13:213][952]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078397 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.13:545][953]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074900 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.13:881][954]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075454 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.14:212][955]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-81.89 Y=61.48 Z=0.00 Location: X=-956.74 Y=-1247.77 Z=268.84 Normal: X=0.90 Y=0.43 Z=-0.00 PenetrationDepth:0.099 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (1 other events since notify)
+[2017.12.14-03.49.14:862][957]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-99.84 Y=22.75 Z=0.00 Location: X=-827.47 Y=-1277.44 Z=261.12 Normal: X=-0.38 Y=-0.92 Z=0.02 PenetrationDepth:0.305 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (2 other events since notify)
+[2017.12.14-03.49.15:540][959]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-409.46 Y=307.39 Z=0.00 Location: X=-956.76 Y=-1247.68 Z=268.81 Normal: X=0.90 Y=0.43 Z=-0.00 PenetrationDepth:0.126 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (3 other events since notify)
+[2017.12.14-03.49.15:878][960]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075825 > MaxSimulationTimeStep (0.050) for 'BP_Neutral_C_7', movement 'Walking'
+[2017.12.14-03.49.16:871][963]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-479.82 Y=360.24 Z=0.00 Location: X=-956.82 Y=-1247.60 Z=268.79 Normal: X=0.90 Y=0.43 Z=-0.00 PenetrationDepth:0.091 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (3 other events since notify)
+[2017.12.14-03.49.18:207][967]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-479.84 Y=360.21 Z=0.00 Location: X=-956.74 Y=-1247.39 Z=268.80 Normal: X=0.87 Y=0.48 Z=-0.00 PenetrationDepth:0.123 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (3 other events since notify)
+[2017.12.14-03.49.18:330][971]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-40.32 Y=-49.19 Z=0.00 Location: X=-753.50 Y=-999.39 Z=257.66 Normal: X=0.91 Y=0.02 Z=0.41 PenetrationDepth:0.108 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part041 (0 other events since notify)
+[2017.12.14-03.49.18:468][976]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-55.77 Y=-0.25 Z=0.00 Location: X=-754.90 Y=-1248.09 Z=261.89 Normal: X=0.94 Y=-0.00 Z=0.34 PenetrationDepth:0.021 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (12 other events since notify)
+[2017.12.14-03.49.18:580][980]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-52.68 Y=12.09 Z=0.00 Location: X=-827.59 Y=-1277.63 Z=261.12 Normal: X=-0.39 Y=-0.92 Z=0.02 PenetrationDepth:0.144 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (2 other events since notify)
+[2017.12.14-03.49.19:201][  3]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-479.91 Y=360.12 Z=0.00 Location: X=-956.85 Y=-1246.71 Z=268.84 Normal: X=0.89 Y=0.45 Z=-0.00 PenetrationDepth:0.024 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (36 other events since notify)
+[2017.12.14-03.49.19:540][ 16]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-50.34 Y=0.13 Z=0.00 Location: X=-754.90 Y=-1248.23 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.006 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (22 other events since notify)
+[2017.12.14-03.49.19:568][ 17]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-34.68 Y=-42.32 Z=0.00 Location: X=-753.50 Y=-999.39 Z=257.66 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.045 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (0 other events since notify)
+[2017.12.14-03.49.19:570][ 17]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-51.93 Y=-17.26 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.00 Z=0.33 PenetrationDepth:0.033 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.49.19:754][ 24]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-54.12 Y=12.33 Z=0.00 Location: X=-827.81 Y=-1277.37 Z=261.42 Normal: X=-0.39 Y=-0.92 Z=0.02 PenetrationDepth:0.205 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.49.20:597][ 54]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-343.89 Y=-419.61 Z=0.00 Location: X=-753.50 Y=-999.39 Z=257.66 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.061 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (30 other events since notify)
+[2017.12.14-03.49.20:604][ 54]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=67.48 Y=4.16 Z=0.00 Location: X=-956.86 Y=-1246.06 Z=268.96 Normal: X=-0.21 Y=-0.98 Z=-0.00 PenetrationDepth:0.032 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (8 other events since notify)
+[2017.12.14-03.49.20:628][ 55]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-64.56 Y=0.19 Z=0.00 Location: X=-754.95 Y=-1248.29 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.052 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (18 other events since notify)
+[2017.12.14-03.49.20:777][ 60]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-55.62 Y=-18.49 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.00 Z=0.34 PenetrationDepth:0.022 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (9 other events since notify)
+[2017.12.14-03.49.21:602][ 89]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-37.22 Y=-45.41 Z=0.00 Location: X=-753.48 Y=-999.36 Z=257.67 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.029 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (9 other events since notify)
+[2017.12.14-03.49.21:652][ 91]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-52.42 Y=0.19 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.048 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (12 other events since notify)
+[2017.12.14-03.49.21:816][ 97]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-50.68 Y=-16.85 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.01 Z=0.33 PenetrationDepth:0.091 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (20 other events since notify)
+[2017.12.14-03.49.21:927][101]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=54.28 Y=3.34 Z=0.00 Location: X=-956.87 Y=-1246.06 Z=268.99 Normal: X=-0.22 Y=-0.98 Z=-0.00 PenetrationDepth:0.090 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part015 (0 other events since notify)
+[2017.12.14-03.49.22:627][127]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-34.67 Y=-42.23 Z=0.00 Location: X=-753.51 Y=-999.78 Z=257.74 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.090 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (17 other events since notify)
+[2017.12.14-03.49.22:653][128]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-600.00 Y=2.12 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.062 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (33 other events since notify)
+[2017.12.14-03.49.22:849][135]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-52.07 Y=-17.31 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.01 Z=0.34 PenetrationDepth:0.051 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (20 other events since notify)
+[2017.12.14-03.49.23:649][165]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-143.06 Y=-173.09 Z=0.00 Location: X=-753.51 Y=-999.78 Z=257.74 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.063 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (27 other events since notify)
+[2017.12.14-03.49.23:674][166]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-543.98 Y=1.92 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.105 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (30 other events since notify)
+[2017.12.14-03.49.23:869][173]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-107.56 Y=-35.75 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.01 Z=0.33 PenetrationDepth:0.066 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (19 other events since notify)
+[2017.12.14-03.49.24:524][197]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-18.94 Y=-51.33 Z=0.00 Location: X=-822.09 Y=-880.66 Z=326.30 Normal: X=0.05 Y=0.88 Z=0.47 PenetrationDepth:0.043 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (0 other events since notify)
+[2017.12.14-03.49.24:676][203]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-168.59 Y=0.60 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.071 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (34 other events since notify)
+[2017.12.14-03.49.24:702][204]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-34.19 Y=-41.36 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (13 other events since notify)
+[2017.12.14-03.49.24:917][212]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-57.82 Y=-19.22 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.01 Z=0.34 PenetrationDepth:0.054 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (23 other events since notify)
+[2017.12.14-03.49.25:529][235]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-36.11 Y=-98.42 Z=0.00 Location: X=-822.80 Y=-880.63 Z=326.17 Normal: X=0.05 Y=0.88 Z=0.47 PenetrationDepth:0.097 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (8 other events since notify)
+[2017.12.14-03.49.25:675][241]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-600.00 Y=2.12 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.112 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (33 other events since notify)
+[2017.12.14-03.49.25:927][251]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-32.57 Y=-39.40 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.025 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (1 other events since notify)
+[2017.12.14-03.49.25:929][251]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-95.65 Y=-31.79 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.00 Z=0.33 PenetrationDepth:0.060 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (17 other events since notify)
+[2017.12.14-03.49.26:601][277]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-17.93 Y=-48.96 Z=0.00 Location: X=-823.30 Y=-880.60 Z=326.09 Normal: X=0.05 Y=0.88 Z=0.48 PenetrationDepth:0.049 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (7 other events since notify)
+[2017.12.14-03.49.26:672][280]LogCharacterMovement: BP_Minion_Ally_C_1 is stuck and failed to move! Velocity: X=-30.91 Y=44.93 Z=0.00 Location: X=-1252.62 Y=1083.50 Z=257.83 Normal: X=-0.87 Y=0.00 Z=0.49 PenetrationDepth:0.207 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part041 (0 other events since notify)
+[2017.12.14-03.49.26:699][281]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-271.08 Y=0.96 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.159 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (36 other events since notify)
+[2017.12.14-03.49.26:786][284]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=38.54 Y=37.06 Z=0.00 Location: X=-957.09 Y=-1245.66 Z=269.13 Normal: X=-0.41 Y=-0.63 Z=-0.65 PenetrationDepth:0.182 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part092 (1 other events since notify)
+[2017.12.14-03.49.26:802][285]LogCharacterMovement: BP_Minion_Ally_C_0 is stuck and failed to move! Velocity: X=474.25 Y=-367.54 Z=0.00 Location: X=-1358.82 Y=1125.51 Z=255.53 Normal: X=-0.67 Y=0.59 Z=-0.45 PenetrationDepth:2.411 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part081 (23 other events since notify)
+[2017.12.14-03.49.27:011][291]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-40.06 Y=-48.47 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.015 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (5 other events since notify)
+[2017.12.14-03.49.27:121][295]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-55.23 Y=-18.36 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.00 Z=0.34 PenetrationDepth:0.034 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (22 other events since notify)
+[2017.12.14-03.49.27:199][298]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-57.31 Y=13.93 Z=0.00 Location: X=-828.31 Y=-1277.27 Z=261.47 Normal: X=-0.39 Y=-0.92 Z=0.02 PenetrationDepth:0.098 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.49.27:669][315]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-19.38 Y=-52.96 Z=0.00 Location: X=-823.53 Y=-880.76 Z=325.95 Normal: X=0.05 Y=0.88 Z=0.48 PenetrationDepth:0.264 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (14 other events since notify)
+[2017.12.14-03.49.27:712][317]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-600.00 Y=2.12 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.008 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (29 other events since notify)
+[2017.12.14-03.49.27:963][326]LogCharacterMovement: BP_Minion_Ally_C_0 is stuck and failed to move! Velocity: X=13.87 Y=-55.17 Z=0.00 Location: X=-1276.44 Y=1120.96 Z=255.51 Normal: X=-0.99 Y=-0.10 Z=0.00 PenetrationDepth:31.065 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part100 (9 other events since notify)
+[2017.12.14-03.49.28:054][329]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-39.41 Y=-47.42 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.006 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (10 other events since notify)
+[2017.12.14-03.49.28:280][337]LogCharacterMovement: BP_Minion_Enemy_C_2 is stuck and failed to move! Velocity: X=-51.93 Y=13.07 Z=0.00 Location: X=-828.48 Y=-1277.29 Z=261.47 Normal: X=-0.38 Y=-0.92 Z=0.02 PenetrationDepth:0.131 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (1 other events since notify)
+[2017.12.14-03.49.28:686][351]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-19.58 Y=-53.53 Z=0.00 Location: X=-823.52 Y=-880.65 Z=325.86 Normal: X=0.05 Y=0.88 Z=0.48 PenetrationDepth:0.219 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (11 other events since notify)
+[2017.12.14-03.49.28:731][353]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-169.68 Y=0.60 Z=0.00 Location: X=-755.07 Y=-1248.41 Z=261.89 Normal: X=0.94 Y=0.00 Z=0.33 PenetrationDepth:0.168 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (20 other events since notify)
+[2017.12.14-03.49.29:058][364]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-86.04 Y=-103.53 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.29:186][368]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-46.16 Y=35.20 Z=0.00 Location: X=-957.15 Y=-1244.41 Z=269.95 Normal: X=0.86 Y=0.51 Z=-0.00 PenetrationDepth:0.043 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (3 other events since notify)
+[2017.12.14-03.49.29:723][386]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=-19.48 Y=-53.37 Z=0.00 Location: X=-823.80 Y=-880.80 Z=325.75 Normal: X=0.05 Y=0.88 Z=0.48 PenetrationDepth:0.335 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part014 (14 other events since notify)
+[2017.12.14-03.49.29:856][391]LogCharacterMovement: BP_Minion_Enemy_C_4 is stuck and failed to move! Velocity: X=-60.84 Y=-0.00 Z=0.00 Location: X=-755.17 Y=-1248.49 Z=261.89 Normal: X=0.94 Y=-0.01 Z=0.34 PenetrationDepth:0.000 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (11 other events since notify)
+[2017.12.14-03.49.30:087][399]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-75.47 Y=-90.81 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.30:214][403]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-477.19 Y=363.72 Z=0.00 Location: X=-957.25 Y=-1243.92 Z=270.05 Normal: X=0.82 Y=0.57 Z=-0.00 PenetrationDepth:0.066 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (33 other events since notify)
+[2017.12.14-03.49.30:884][426]LogCharacterMovement: BP_Minion_Enemy_C_10 is stuck and failed to move! Velocity: X=-57.96 Y=-19.27 Z=0.00 Location: X=-753.16 Y=-1179.88 Z=257.79 Normal: X=0.94 Y=-0.01 Z=0.34 PenetrationDepth:0.034 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (4 other events since notify)
+[2017.12.14-03.49.31:122][434]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-39.15 Y=-47.11 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.31:223][437]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-477.18 Y=363.72 Z=0.00 Location: X=-957.23 Y=-1243.94 Z=270.00 Normal: X=0.82 Y=0.57 Z=-0.00 PenetrationDepth:0.096 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (33 other events since notify)
+[2017.12.14-03.49.32:135][468]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-36.47 Y=-43.88 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (24 other events since notify)
+[2017.12.14-03.49.32:228][471]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-477.20 Y=363.71 Z=0.00 Location: X=-957.24 Y=-1243.84 Z=270.09 Normal: X=0.82 Y=0.57 Z=-0.00 PenetrationDepth:0.046 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (33 other events since notify)
+[2017.12.14-03.49.32:615][485]LogCharacterMovement: BP_Minion_Ally_C_2 is stuck and failed to move! Velocity: X=-8.90 Y=-56.95 Z=0.00 Location: X=-1264.68 Y=1053.75 Z=258.09 Normal: X=-0.17 Y=0.92 Z=0.34 PenetrationDepth:3.315 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part096 (1 other events since notify)
+[2017.12.14-03.49.33:153][504]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-110.98 Y=-132.91 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (23 other events since notify)
+[2017.12.14-03.49.33:247][507]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-477.20 Y=363.70 Z=0.00 Location: X=-957.24 Y=-1243.83 Z=270.09 Normal: X=0.82 Y=0.57 Z=0.00 PenetrationDepth:0.100 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part063 (35 other events since notify)
+[2017.12.14-03.49.34:168][538]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-76.50 Y=-91.61 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (24 other events since notify)
+[2017.12.14-03.49.34:698][556]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=7.54 Y=59.65 Z=0.00 Location: X=-957.23 Y=-1243.59 Z=270.18 Normal: X=-0.42 Y=-0.64 Z=-0.64 PenetrationDepth:0.357 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part092 (17 other events since notify)
+[2017.12.14-03.49.35:188][573]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-41.12 Y=-49.25 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.36:196][608]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-37.41 Y=-44.80 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.36:539][620]LogCharacterMovement: BP_Neutral_C_17 is stuck and failed to move! Velocity: X=-18.34 Y=51.52 Z=0.00 Location: X=-1315.33 Y=-1345.22 Z=257.69 Normal: X=0.34 Y=-0.94 Z=0.00 PenetrationDepth:0.051 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part073 (0 other events since notify)
+[2017.12.14-03.49.37:111][640]LogCharacterMovement: BP_Minion_Ally_C_0 is stuck and failed to move! Velocity: X=-10.26 Y=-61.69 Z=0.00 Location: X=-1282.29 Y=1003.69 Z=258.12 Normal: X=0.91 Y=-0.07 Z=-0.41 PenetrationDepth:25.124 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part016 (2 other events since notify)
+[2017.12.14-03.49.37:201][643]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-37.63 Y=-45.07 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (26 other events since notify)
+[2017.12.14-03.49.37:311][647]LogCharacterMovement: BP_Minion_Ally_C_11 is stuck and failed to move! Velocity: X=19.83 Y=-54.64 Z=0.00 Location: X=-1252.53 Y=1133.13 Z=258.04 Normal: X=-0.58 Y=0.81 Z=-0.00 PenetrationDepth:3.676 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part095 (0 other events since notify)
+[2017.12.14-03.49.37:528][655]LogCharacterMovement: BP_Minion_Ally_C_14 is stuck and failed to move! Velocity: X=18.38 Y=-49.30 Z=0.00 Location: X=-1313.16 Y=1165.46 Z=257.56 Normal: X=-0.40 Y=0.92 Z=-0.00 PenetrationDepth:3.457 Actor:BP_Building_Base_123 Component:Destructible BoneName:Part095 (0 other events since notify)
+[2017.12.14-03.49.37:870][667]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=7.67 Y=60.63 Z=0.00 Location: X=-957.34 Y=-1243.34 Z=269.95 Normal: X=-0.89 Y=0.46 Z=0.00 PenetrationDepth:0.026 Actor:BP_Minion_Enemy_C_0 Component:CollisionCylinder BoneName:None (1 other events since notify)
+[2017.12.14-03.49.38:221][680]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-143.24 Y=-171.16 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (25 other events since notify)
+[2017.12.14-03.49.39:241][718]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-137.07 Y=-163.79 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (29 other events since notify)
+[2017.12.14-03.49.40:294][757]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-36.42 Y=-43.52 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (29 other events since notify)
+[2017.12.14-03.49.40:441][762]LogCharacterMovement: BP_Neutral_C_30 is stuck and failed to move! Velocity: X=-12.01 Y=-52.38 Z=0.00 Location: X=-846.98 Y=-761.83 Z=257.58 Normal: X=0.89 Y=0.46 Z=0.01 PenetrationDepth:0.026 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part012 (0 other events since notify)
+[2017.12.14-03.49.40:751][774]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-31.81 Y=39.62 Z=0.00 Location: X=-957.40 Y=-1243.19 Z=270.02 Normal: X=0.43 Y=-0.84 Z=-0.34 PenetrationDepth:0.052 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part072 (1 other events since notify)
+[2017.12.14-03.49.41:329][797]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-33.09 Y=-39.54 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (31 other events since notify)
+[2017.12.14-03.49.41:957][821]LogCharacterMovement: BP_Neutral_C_30 is stuck and failed to move! Velocity: X=-12.16 Y=-52.96 Z=0.00 Location: X=-846.94 Y=-762.06 Z=257.58 Normal: X=0.89 Y=0.46 Z=0.02 PenetrationDepth:0.099 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part012 (7 other events since notify)
+[2017.12.14-03.49.42:344][836]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-104.03 Y=-124.16 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (27 other events since notify)
+[2017.12.14-03.49.42:994][861]LogCharacterMovement: BP_Neutral_C_30 is stuck and failed to move! Velocity: X=-11.47 Y=-49.96 Z=0.00 Location: X=-846.94 Y=-762.06 Z=257.58 Normal: X=0.89 Y=0.46 Z=0.02 PenetrationDepth:0.058 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part012 (0 other events since notify)
+[2017.12.14-03.49.43:347][875]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-100.63 Y=-120.10 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (30 other events since notify)
+[2017.12.14-03.49.44:175][907]LogCharacterMovement: BP_Neutral_C_30 is stuck and failed to move! Velocity: X=-11.60 Y=-50.49 Z=0.00 Location: X=-846.94 Y=-762.06 Z=257.58 Normal: X=0.89 Y=0.46 Z=0.02 PenetrationDepth:0.048 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part012 (1 other events since notify)
+[2017.12.14-03.49.44:349][914]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-67.47 Y=-80.53 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (30 other events since notify)
+[2017.12.14-03.49.45:381][956]LogCharacterMovement: BP_Neutral_C_8 is stuck and failed to move! Velocity: X=-31.63 Y=-37.76 Z=0.00 Location: X=-753.48 Y=-999.78 Z=257.76 Normal: X=-0.59 Y=0.60 Z=0.54 PenetrationDepth:0.009 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part096 (33 other events since notify)
+[2017.12.14-03.49.45:435][958]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-48.04 Y=6.11 Z=0.00 Location: X=-957.43 Y=-1243.13 Z=269.95 Normal: X=0.43 Y=-0.84 Z=-0.34 PenetrationDepth:0.102 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part072 (0 other events since notify)
+[2017.12.14-03.49.45:456][959]LogCharacterMovement: BP_Neutral_C_30 is stuck and failed to move! Velocity: X=-10.80 Y=-47.05 Z=0.00 Location: X=-846.94 Y=-762.07 Z=257.58 Normal: X=0.89 Y=0.46 Z=0.02 PenetrationDepth:0.004 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part012 (4 other events since notify)
+[2017.12.14-03.49.46:287][988]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.49.46:393][988]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.50.34:550][101]BlueprintLog: New page: Compile TopDownExampleMap
+[2017.12.14-03.50.34:736][101]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn)
+[2017.12.14-03.50.34:736][101]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_NeutralSpawn2)
+[2017.12.14-03.50.34:736][101]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_EnemySpawn)
+[2017.12.14-03.50.34:736][101]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'Spawned'. Node:  EventSpawned (PT_AllySpawn)
+[2017.12.14-03.50.35:595][169]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.14-03.50.35:624][169]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.50.35:624][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-03.50.35:624][169]PIE: New page: PIE session: TopDownExampleMap (Dec 13, 2017, 5:50:35 PM)
+[2017.12.14-03.50.35:624][169]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.12.14-03.50.35:653][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028552s)
+[2017.12.14-03.50.35:654][169]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.50.35:654][169]LogPlayLevel: PIE: World Init took: (0.001214s)
+[2017.12.14-03.50.35:654][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030131s)
+[2017.12.14-03.50.35:691][169]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.50.35:699][169]LogInit: FAudioDevice initialized.
+[2017.12.14-03.50.35:748][169]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.12.14-03.50.35:754][169]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.12.13-22.50.35
+[2017.12.14-03.50.35:756][169]LogWorld: Bringing up level for play took: 0.006856
+[2017.12.14-03.50.35:757][169]PIE:Warning: Warning Mobility of NavigationMeshBoundsVolume : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2017.12.14-03.50.35:782][169]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.207
+[2017.12.14-03.50.35:783][169]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.50.42:035][437]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-130.32 Y=0.30 Z=0.00 Location: X=-753.38 Y=-1234.43 Z=258.67 Normal: X=0.94 Y=0.01 Z=0.34 PenetrationDepth:0.013 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (0 other events since notify)
+[2017.12.14-03.50.43:048][477]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-324.22 Y=-0.59 Z=0.00 Location: X=-753.50 Y=-1232.70 Z=258.91 Normal: X=0.95 Y=0.02 Z=0.32 PenetrationDepth:0.077 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (10 other events since notify)
+[2017.12.14-03.50.44:083][526]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-42.87 Y=-0.09 Z=0.00 Location: X=-753.50 Y=-1232.62 Z=258.91 Normal: X=0.95 Y=0.01 Z=0.32 PenetrationDepth:0.087 Actor:BP_Building_Base2_168 Component:Destructible BoneName:Part074 (40 other events since notify)
+[2017.12.14-03.50.48:580][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.50.48:687][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.51.18:789][746]LogTemp: Repeting last play command: Selected Viewport
+[2017.12.14-03.51.18:819][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.51.18:819][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.14-03.51.18:819][746]PIE: New page: PIE session: TopDownExampleMap (Dec 13, 2017, 5:51:18 PM)
+[2017.12.14-03.51.18:819][746]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.12.14-03.51.18:847][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027144s)
+[2017.12.14-03.51.18:847][746]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.12.14-03.51.18:848][746]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.12.14-03.51.18:848][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028530s)
+[2017.12.14-03.51.18:887][746]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.14-03.51.18:895][746]LogInit: FAudioDevice initialized.
+[2017.12.14-03.51.18:928][746]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.12.14-03.51.18:935][746]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.12.13-22.51.18
+[2017.12.14-03.51.18:936][746]LogWorld: Bringing up level for play took: 0.006684
+[2017.12.14-03.51.18:959][746]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.97
+[2017.12.14-03.51.18:959][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.51.29:341][986]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=550.000 Y=-1410.000 Z=170.000] for [BP_Minion_Enemy_C]
+[2017.12.14-03.51.31:782][101]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=3.57 Y=-42.84 Z=0.00 Location: X=503.62 Y=1129.90 Z=257.62 Normal: X=0.00 Y=0.80 Z=0.61 PenetrationDepth:16.167 Actor:BP_Building_Base5_525 Component:Destructible BoneName:Part090 (0 other events since notify)
+[2017.12.14-03.51.33:605][166]LogCharacterMovement: BP_Other_Player_2 is stuck and failed to move! Velocity: X=-3.82 Y=-50.89 Z=0.00 Location: X=646.41 Y=1153.47 Z=257.11 Normal: X=0.81 Y=-0.05 Z=-0.58 PenetrationDepth:0.740 Actor:BP_Building_Base5_525 Component:Destructible BoneName:Part010 (0 other events since notify)
+[2017.12.14-03.51.34:183][185]LogCharacterMovement: BP_Neutral_C_4 is stuck and failed to move! Velocity: X=55.38 Y=8.20 Z=0.00 Location: X=570.65 Y=1141.44 Z=257.65 Normal: X=-0.49 Y=0.87 Z=0.09 PenetrationDepth:0.015 Actor:BP_Building_Base5_525 Component:Destructible BoneName:Part014 (0 other events since notify)
+[2017.12.14-03.51.35:111][214]LogCharacterMovement: BP_Neutral_C_3 is stuck and failed to move! Velocity: X=63.82 Y=1.64 Z=0.00 Location: X=511.69 Y=1150.04 Z=256.92 Normal: X=-0.05 Y=-0.76 Z=-0.65 PenetrationDepth:0.005 Actor:BP_Building_Base5_525 Component:Destructible BoneName:Part075 (0 other events since notify)
+[2017.12.14-03.51.36:142][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.51.36:229][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.12.14-03.53.50:073][746]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.12.14-03.54.01:016][147]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.12.14-03.54.29:443][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.12.14-03.55.20:890][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.14-03.55.21:751][746]LogSavePackage: Save=433.09ms
+[2017.12.14-03.55.21:751][746]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMap_Auto4E57680A24D28ED8F43CE03ACFEA81826.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap'
+[2017.12.14-03.55.21:754][746]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto4.umap
+[2017.12.14-03.55.21:760][746]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.490
+[2017.12.14-03.55.21:761][746]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.490
+[2017.12.14-03.55.29:591][ 66]LogEditorViewport: Clicking on Actor (LMB): BP_Player_C (TopDownCharacter)
+[2017.12.14-03.57.40:172][589]LogSavePackage: Save=496.17ms
+[2017.12.14-03.57.40:172][589]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMapB7C9DB564D98B9A4033C49B1590795FC.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2017.12.14-03.57.40:181][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2017.12.14-03.57.40:409][589]LogSavePackage: Save=150.42ms
+[2017.12.14-03.57.40:409][589]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/TopDownExampleMap_BuiltDataCA9304114B5F65862CC884933E26366D.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2017.12.14-03.57.40:411][589]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset
+[2017.12.14-03.58.16:310][710]Cmd: TRANSACTION UNDO
+[2017.12.14-03.58.16:310][710]LogEditorTransaction: Undo Move Node
+[2017.12.14-04.04.52:860][425]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Neutral/BT_Neutral" FILE="../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Blueprints/Neutral/BT_Neutral.uasset" SILENT=true
+[2017.12.14-04.04.52:895][425]LogSavePackage: Save=23.53ms
+[2017.12.14-04.04.52:895][425]LogSavePackage: Moving '../../../../../../Users/Max/Desktop/Unreal/TopDown/Saved/BT_NeutralD9542A5C40D25FA861E7839B947A4A81.tmp' to '../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Blueprints/Neutral/BT_Neutral.uasset'
+[2017.12.14-04.04.52:905][425]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/TopDownBP/Blueprints/Neutral/BT_Neutral.uasset
+[2017.12.14-04.04.57:827][447]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.12.14-04.04.57:943][447]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.12.14-04.04.58:186][448]Cmd: QUIT_EDITOR
+[2017.12.14-04.04.58:982][448]LogExit: Preparing to exit.
+[2017.12.14-04.04.59:562][448]LogDirectoryWatcher: A directory notification for 'C:/Users/Max/Desktop/Unreal/TopDown/Content/' was aborted.
+[2017.12.14-04.04.59:711][448]LogExit: Editor shut down
+[2017.12.14-04.04.59:751][448]LogExit: Transaction tracking system shut down
+[2017.12.14-04.05.00:003][448]LogObj: Freed 0b from 0 cluster array pools.
+[2017.12.14-04.05.00:003][448]LogExit: Object subsystem successfully closed.
+[2017.12.14-04.05.00:041][448]LogD3D11RHI: Shutdown
+[2017.12.14-04.05.00:041][448]LogD3D11RHI: CleanupD3DDevice
+[2017.12.14-04.05.00:694][448]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.12.14-04.05.00:725][448]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.12.14-04.05.00:725][448]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.12.14-04.05.00:726][448]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.12.14-04.05.00:726][448]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.12.14-04.05.00:726][448]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.12.14-04.05.00:726][448]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.12.14-04.05.00:726][448]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.12.14-04.05.00:726][448]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.12.14-04.05.00:732][448]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.12.14-04.05.00:732][448]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.12.14-04.05.00:732][448]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.12.14-04.05.00:733][448]LogDirectoryWatcher: A directory notification for 'C:/Users/Max/Desktop/Unreal/TopDown/Content/Collections/' was aborted.
+[2017.12.14-04.05.00:733][448]LogDirectoryWatcher: A directory notification for 'C:/Users/Max/Desktop/Unreal/TopDown/Content/Developers/Max/Collections/' was aborted.
+[2017.12.14-04.05.00:733][448]LogDirectoryWatcher: A directory notification for 'C:/Users/Max/Desktop/Unreal/TopDown/Saved/Collections/' was aborted.
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.12.14-04.05.00:733][448]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.12.14-04.05.00:734][448]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.12.14-04.05.00:735][448]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.12.14-04.05.00:735][448]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.12.14-04.05.00:736][448]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.12.14-04.05.00:736][448]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.12.14-04.05.00:736][448]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.12.14-04.05.00:737][448]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.12.14-04.05.00:737][448]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.12.14-04.05.00:737][448]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.12.14-04.05.01:380][448]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.12.14-04.05.01:380][448]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.12.14-04.05.01:380][448]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.12.14-04.05.01:381][448]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.12.14-04.05.01:381][448]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.12.14-04.05.01:381][448]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.12.14-04.05.01:382][448]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.12.14-04.05.01:383][448]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.12.14-04.05.01:383][448]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.12.14-04.05.01:383][448]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.12.14-04.05.01:383][448]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.12.14-04.05.01:383][448]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.12.14-04.05.01:384][448]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.12.14-04.05.01:384][448]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.12.14-04.05.01:385][448]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.12.14-04.05.01:440][448]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.12.14-04.05.01:440][448]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.12.14-04.05.01:440][448]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.12.14-04.05.01:441][448]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.12.14-04.05.01:441][448]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.12.14-04.05.01:441][448]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.12.14-04.05.01:442][448]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.12.14-04.05.01:442][448]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.12.14-04.05.01:442][448]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.12.14-04.05.01:442][448]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.12.14-04.05.01:457][448]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.12.14-04.05.01:459][448]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.12.14-04.05.01:459][448]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.12.14-04.05.01:460][448]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.12.14-04.05.01:460][448]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.12.14-04.05.01:460][448]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.12.14-04.05.01:460][448]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.12.14-04.05.01:461][448]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.12.14-04.05.01:461][448]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.12.14-04.05.01:461][448]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.12.14-04.05.01:461][448]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.12.14-04.05.01:461][448]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.12.14-04.05.01:462][448]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.12.14-04.05.01:492][448]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.12.14-04.05.01:493][448]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.12.14-04.05.01:494][448]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.12.14-04.05.01:495][448]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.12.14-04.05.01:596][448]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.12.14-04.05.01:696][448]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.12.14-04.05.01:697][448]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.12.14-04.05.01:697][448]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.12.14-04.05.01:697][448]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.12.14-04.05.01:697][448]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.12.14-04.05.01:697][448]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.12.14-04.05.01:700][448]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.12.14-04.05.01:700][448]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.12.14-04.05.01:701][448]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.12.14-04.05.01:701][448]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.12.14-04.05.01:705][448]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.12.14-04.05.01:706][448]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.12.14-04.05.01:706][448]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.12.14-04.05.01:706][448]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.12.14-04.05.01:706][448]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.12.14-04.05.01:706][448]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.12.14-04.05.01:707][448]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.12.14-04.05.01:707][448]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.12.14-04.05.01:708][448]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.12.14-04.05.01:708][448]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.12.14-04.05.01:708][448]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.12.14-04.05.01:709][448]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.12.14-04.05.01:709][448]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.12.14-04.05.01:709][448]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.12.14-04.05.01:715][448]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.12.14-04.05.01:715][448]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.12.14-04.05.01:716][448]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.12.14-04.05.01:716][448]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.12.14-04.05.01:716][448]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.12.14-04.05.01:716][448]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.12.14-04.05.01:944][448]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.12.14-04.05.01:944][448]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Max/Desktop/Unreal/TopDown/Content/' was aborted.
+[2017.12.14-04.05.01:944][448]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.12.14-04.05.01:944][448]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.12.14-04.05.01:949][448]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.12.14-04.05.01:956][448]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.12.14-04.05.01:999][448]LogDerivedDataCache: Shutdown
+[2017.12.14-04.05.01:999][448]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.12.14-04.05.01:999][448]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.12.14-04.05.01:999][448]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.12.14-04.05.02:000][448]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.12.14-04.05.02:001][448]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.12.14-04.05.02:002][448]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.12.14-04.05.02:003][448]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.12.14-04.05.02:004][448]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.12.14-04.05.02:004][448]LogOnline:Display: Unloading online subsystem: NULL
+[2017.12.14-04.05.02:005][448]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.12.14-04.05.02:005][448]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.12.14-04.05.02:005][448]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.12.14-04.05.02:005][448]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4382DEF5-4082-58EC-C009-3DB8114AB085%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.2-3514769%2B%2B%2BUE4%2BRelease-4.16&UserID=144d638e4bcfc5d4334e3ea112ef68da%7C8186b5bca3f9435db9ce45a259e2d8af%7Cfa80414f-c35f-4b26-9592-bd1f0564225a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.12.14-04.05.02:028][448]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.12.14-04.05.02:031][448]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.12.14-04.05.02:032][448]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.12.14-04.05.02:032][448]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.12.14-04.05.02:032][448]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.12.14-04.05.02:033][448]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.12.14-04.05.02:033][448]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.12.14-04.05.02:033][448]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.12.14-04.05.02:033][448]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.12.14-04.05.02:039][448]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.12.14-04.05.02:040][448]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.12.14-04.05.02:043][448]LogExit: Exiting.
+[2017.12.14-04.05.02:092][448]Log file closed, 12/13/17 23:05:02
